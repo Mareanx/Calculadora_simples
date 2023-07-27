@@ -31,11 +31,11 @@ int main()
         if (n2 != 0.0)
             cout << n1 << " / " << n2 << " = " << (n1 / n2);
         else
-            cout << "Não é possivel fazer divisão por 0\n\n";
+            cout << "Não é possivel fazer divisão por 0, tente novamente\n\n";
         break;
 
     default:
-        cout << "Erro: operador invalido";
+        cout << "Erro: operador invalido, utilize outro";
     }
 
     return 0;
